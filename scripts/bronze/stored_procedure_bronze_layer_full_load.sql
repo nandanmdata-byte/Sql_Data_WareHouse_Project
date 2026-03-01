@@ -2,7 +2,7 @@
 /* 
 =====================================================================
 
-| Stored Procedure: Loading bronze_layer | 
+| STORED PROCEDURE : LOADING BRONZE LAYER | 
 
 =====================================================================
 
@@ -13,7 +13,8 @@ Purpose :
 	- Truncate the bronze tables before loading data.
 	- Use the `BULK INSERT` command to load data from csv Files to bronze tables.
 
-Note : This procedure doesn't use any parameters and it doesn't return any values.
+Note : 
+	This procedure doesn't use any parameters and it doesn't return any values.
 
 WARNING :
 	The procedure uses the TRUNCATE TABLE command to clear existing data before loading new data.
