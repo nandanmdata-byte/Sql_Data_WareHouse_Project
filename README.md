@@ -35,7 +35,7 @@ The project follows a **Medallion Architecture** to ensure data quality and sepa
 
 ```text
 [ Raw Data ]       [ Bronze Layer ]       [ Silver Layer ]       [ Gold Layer ]
- (CSV Files)  -->  (Ods / Staging)  -->  (Cleaned/Typed)  -->  (Star Schema)
+ (CSV Files)  -->     (Staging)      -->  (Cleaned/Typed)  -->  (Star Schema)
 
       |                   |                      |                     |
    CRM & ERP        Raw Ingestion          Deduplication           Fact & Dim
